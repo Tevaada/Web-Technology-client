@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Reference</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">&lt;HTML&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#text">Text</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#layout">Layout</a></li>
+            <li><a href="#tables">Tables</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+
+        <section id="text">
+            <h1 class="section-title">HTML Text Elements</h1>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Element</th>
+                        <th>Description</th>
+                        <th>End Tag</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>&lt;h1&gt; – &lt;h6&gt;</code></td>
+                        <td>Headings from largest to smallest</td>
+                        <td><code>&lt;/h1&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;p&gt;</code></td>
+                        <td>Paragraph of text</td>
+                        <td><code>&lt;/p&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;div&gt;</code></td>
+                        <td>Block-level container for grouping elements</td>
+                        <td><code>&lt;/div&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;span&gt;</code></td>
+                        <td>Inline container for styling specific text</td>
+                        <td><code>&lt;/span&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;pre&gt;</code></td>
+                        <td>Preformatted text (preserves spaces and line breaks)</td>
+                        <td><code>&lt;/pre&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;blockquote&gt;</code></td>
+                        <td>A section quoted from another source</td>
+                        <td><code>&lt;/blockquote&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;cite&gt;</code></td>
+                        <td>Title of a creative work</td>
+                        <td><code>&lt;/cite&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;q&gt;</code></td>
+                        <td>Short inline quotation</td>
+                        <td><code>&lt;/q&gt;</code></td>
+                    </tr>
+                    <tr>
+                        <td><code>&lt;address&gt;</code></td>
+                        <td>Contact information for the document author</td>
+                        <td><code>&lt;/address&gt;</code></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="example-box">
+                <h2 class="example-title">Headings &amp; Paragraph</h2>
+                <h1>Main Title (h1)</h1>
+                <h2>Section Heading (h2)</h2>
+                <h3>Subsection (h3)</h3>
+                <h4>Minor Heading (h4)</h4>
+                <h5>Even Smaller (h5)</h5>
+                <h6>Smallest Heading (h6)</h6>
+                <p>This is a paragraph of text inside a <code>&lt;p&gt;</code> element.</p>
+            </div>
+            <div class="example-box">
+                <h2 class="example-title">Grouping &amp; Styling</h2>
+                <div>This is a block-level container for styling multiple elements.</div>
+                <p>The word <span style="color: red;">important</span> is styled inline.</p>   
+            </div>
+            <div class="example-box">
+                <h2 class="example-title">Preformatted Text</h2>
+                <pre>
+                    This text preserves
+                        the exact spacing
+                            and line breaks.
+                </pre>   
+            </div>
+            <div class="example-box">
+                <h2 class="example-title">Quotations &amp; Citations</h2>
+                <blockquote cite="http://www.worldwildlife.org/who/index.html">
+                    For 50 years, WWF has been protecting the future of nature.
+                </blockquote>
+                <p>According to <cite>A Game of Thrones</cite>, by George R. R. Martin.</p>
+                <p>He said, <q>Get busy living or get busy dying.</q></p>
+                <address>
+                    Contact: <a href="mailto:author@example.com">author@example.com</a><br>
+                    Location: Berlin, Germany
+                </address>   
+            </div>
+            <h1 class="section-title">HTML Attribute</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Element</th>
+                            <th>Description</th>
+                            <th>End Tag</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><code>&lt;a href = "Link"&gt;</code></td>
+                            <td>specifies the URL of the page the link goes to</td>
+                            <td><code>None</code></td>
+                        </tr>
+                        <tr>
+                            <td><code>&lt;img src = "Link"&gt;</code></td>
+                            <td>specifies the path to the image to be displayed</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+    </main>
+
+</body>
+</html>

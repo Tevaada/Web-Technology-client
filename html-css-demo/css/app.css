@@ -1,0 +1,114 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+.col-3 {
+  width: 25%;
+  padding: 1rem;
+}
+
+.col-6 {
+  width: 50%;
+  padding: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+header .logo img {
+  width: 150px;
+}
+
+header nav .menu {
+  display: flex;
+  list-style: none;
+}
+
+header nav .menu li {
+  padding: 1rem;
+}
+
+header nav .menu li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+header nav .menu li:hover a {
+  color: #007bff;
+}
+
+.latest-product,
+.testimonials,
+.contact-form,
+footer {
+  padding: 2rem 10rem;
+}
+
+.latest-product .product-item {
+  border: 1px solid #ddd;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.latest-product .product-item:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 0px 0px #ddd;
+  box-shadow: 10px 10px 0px 0px #ddd;
+}
+
+.latest-product .product-item img {
+  width: 100%;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.latest-product .product-item .info {
+  padding: 1rem;
+}
+
+.latest-product .product-item .btn-cart {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.latest-product .product-item .btn-cart:hover {
+  cursor: pointer;
+}
+
+.testimonials .testimony-item img {
+  width: 200px;
+  height: 200px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.contact-form .contact img {
+  width: 80%;
+}
